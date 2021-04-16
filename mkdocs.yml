@@ -2,6 +2,7 @@ site_name: "Mon super titre de site"
 
 nav:
   - 'Ma jolie page daccueil' : 'index.md'
+  - 'crypto' : 'crypto.md'
 
 
 theme:

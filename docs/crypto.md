@@ -200,7 +200,7 @@ Il possède la clé publique d'Alice, qui est *(3, 33)*.
 
 Il calcule donc 4**3 modulo 33, qui vaut 31. C'est cette valeur 31 qu'il transmet à Alice.
 
-> Si Marc intercepte cette valeur 31, même en connaissant la clé publique d'Alice (3,33), il ne peut pas résoudre l'équation x**3 ≡ 31 [33] de manière efficace.
+> Si Marc intercepte cette valeur 31, même en connaissant la clé publique d'Alice (3,33), il ne peut pas résoudre l'équation $x^3$ ≡ 31 [33] de manière efficace.
 
 ##### Étape 6
 Alice reçoit la valeur 31.  

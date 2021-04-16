@@ -18,4 +18,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         
         
 ## Petit test de rajout
-$f(x)= \frac{x}{2}+2+y$
+$f(x)= \frac{x}{2}+2+y+5$

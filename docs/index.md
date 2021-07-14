@@ -6,6 +6,11 @@
 
 Il semblerait que ça marche...
 
+
+bien ?
+
+{{ terminal() }}
+
 $f(x)= \frac{x}{2}+5$
 
 
@@ -93,3 +98,13 @@ vd
     sdfklj
 
 fjsdlfk
+
+
+| Method      | Description                          |
+| ----------- | ------------------------------------ |
+| `GET`       | :material-check:     Fetch resource  |
+| `PUT`       | :material-check-all: Update resource |
+| `DELETE`    | :material-close:     Delete resource |
+
+
+

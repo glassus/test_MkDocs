@@ -1,4 +1,4 @@
- Merci Francky !
+ C'est parti !
 
 # fdsfj
 
@@ -72,7 +72,6 @@ def ens_triangle(n):
     === "Hexagone étoilé ; $n=3$"
         Il y a $354$ triangles.
 
-# fdsj
 
 ## test abréviations
 
@@ -108,3 +107,32 @@ fjsdlfk
 
 
 
+
+Hormis la base 10, deux bases sont utilisées en informatique :
+
+- la base 2  (le système **binaire**)
+- la base 16 (le système **hexadécimal**)
+
+Dans toute la suite, la base dans laquelle le nombre est écrit sera précisée en indice.  
+Exemple : $13_{10}=1101_2=\rm{D}_{16}$
+
+## I. Le système binaire 
+
+En base 2, on ne dispose que des chiffres `0` et `1`. Le système binaire est un système de numération de position (comme le système décimal, hexadécimal... mais pas comme le système romain). À chaque rang correspond une puissance de 2.
+
+#### Du binaire vers le décimal :
+|...|128|64|32|16|8|4|2|1|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|...|$2^7$|$2^6$|$2^5$|$2^4$|$2^3$|$2^2$|$2^1$|$2^0$|
+|...|1|1|0|1|0|0|1|0|
+
+
+
+ $11010010_2=1 \times 2^7+ 1 \times 2^6+0 \times 2^5+1 \times 2^4+0 \times 2^3+0 \times 2^2+1 \times 2^1+0 \times 2^0=128+64+32+2=210_{10}$
+ 
+ Le nombre binaire 11010010 correspond donc au nombre décimal 210.
+ 
+ ##### En python :
+ En Python, on peut utiliser la fonction `int("nombre",base)`.
+
+{{ terminal() }}
